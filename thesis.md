@@ -83,6 +83,7 @@ restrictionnote: |
 *   Abgrenzung: Welche Probleme werden im Rahmen der Arbeit *nicht* gelöst?
 *   Zielsetzung: Möglichst genaue Beschreibung der Ziele der Arbeit, etwa erwarteter Nutzen oder wissenschaftlicher Beitrag
 
+a
 Umfang: typisch ca. 8% ... 10% der Arbeit
 
 
