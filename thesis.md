@@ -1,13 +1,12 @@
 ---
-title: "Title of my Thesis"
+title: "Praxisphasenbericht"
 #subtitle: "From Markdown to LaTeX to PDF"
-author: "Surname Name"
+author: "Fayez Sohaila"
 
-studentnumber: "12345678"
-date: "20. Juli 2025"
+studentnumber: "1303146"
+date: "30. November 2026"
 
-reviewer1:  "XXX, HSBI"
-reviewer2:  "XXX, Wuppie GmbH"
+reviewer1:  "Prof.Dr.Robin Rasch, HSBI"
 
 #keywords: [Markdown, Example]
 lang: de-DE
@@ -29,46 +28,7 @@ footer-center: "\\pagemark"     # page number
 footer-right:  "\\hspace{1mm}"  # off
 
 
-## optional (mandatory, if english abstract enabled)
-abstract-de: |
-  Dies ist die Zusammenfassung auf Deutsch.
 
-
-## optional
-abstract-en: |
-  This is an english abstract.
-
-
-## optional
-acknowledgements: |
-  Hier kommt die Danksagung hin.
-
-
-## optional
-restrictionnote: |
-  Die vorliegende Arbeit enthält vertrauliche Daten der Firma XYZ. Veröffentlichungen
-  oder Vervielfältigungen der Arbeit -- auch nur auszugsweise -- sind ohne ausdrückliche
-  Genehmigung des beteiligten Unternehmens nicht gestattet.
-
-  Die Arbeit ist nur den Prüfern bzw. den Korrektoren sowie den Mitgliedern des
-  Prüfungsausschusses bzw. der oder dem Prüfungsbeauftragten zugänglich zu machen.
-
-
-## mandatory
-##
-## HSBI students will need to submit the form provided by the university, which can be found at
-## https://www.hsbi.de/media/hochschulverwaltung/dezernat-ii/studserv/pruefungsangelegenheiten/hochschulweite-ordnungen-formulare-und-antraege/eigenstaendigkeitserklaerung.pdf
-##
-## All others can just uncomment the following section:
-##
-#declaration: |
-#  Ich erkläre hiermit an Eides Statt, dass ich die vorliegende Arbeit selbstständig
-#  angefertigt habe. Die aus fremden Quellen direkt oder indirekt übernommenen Gedanken
-#  sind entsprechend kenntlich gemacht.
-#
-#  Ich habe die Arbeit bisher weder in gleicher noch in ähnlicher Form einer anderen
-#  Prüfungsbehörde vorgelegt und auch noch nicht veröffentlicht. Das PDF-Exemplar stimmt
-#  mit den eingereichten Exemplaren überein.
 ---
 
 
@@ -77,14 +37,17 @@ restrictionnote: |
 
 # Einleitung
 
-*   Worum geht es hier? Was ist das betrachtete Problem bzw. die Fragestellung der Arbeit?
-*   Darstellung der Bedeutung und Relevanz: Warum sollte die Fragestellung bearbeitet werden?
-*   Einordnung in den Kontext
-*   Abgrenzung: Welche Probleme werden im Rahmen der Arbeit *nicht* gelöst?
-*   Zielsetzung: Möglichst genaue Beschreibung der Ziele der Arbeit, etwa erwarteter Nutzen oder wissenschaftlicher Beitrag
+Dieses Dokument beschreibt den Ablauf und die Inhalte meiner Praxisphase, die ich im Zeitraum vom 17.08.2026 bis 30.11.2026 bei Ecomify am Standort Bielefeld absolviert habe. Ziel der Praxisphase war es, die im Studium erworbenen theoretischen Kenntnisse durch praktische Erfahrungen zu ergänzen und einen Einblick in die Arbeitsabläufe und Anforderungen eines Unternehmens im Bereich der Softwareentwicklung zu erhalten.
+Ecomify beschäftigt sich mit der Entwicklung und Umsetzung von Softwarelösungen. Im Rahmen meiner Praxisphase war ich hauptsächlich im Bereich der Softwareentwicklung tätig. Dabei erhielt ich Einblicke in verschiedene Entwicklungsprozesse und konnte mit unterschiedlichen Technologien und Werkzeugen arbeiten.
+Zu Beginn meiner Praxisphase wurde ich in das Team und die bestehenden Arbeitsabläufe eingeführt. Dabei lernte ich meine Kollegen kennen und erhielt eine Einführung in die organisatorischen und technischen Rahmenbedingungen meiner Tätigkeit. Außerdem wurden mir die für meine Arbeit benötigten Zugänge und Arbeitsmittel eingerichtet und die grundlegenden Abläufe zur Bearbeitung von Aufgaben erklärt.
+Ein wichtiger Bestandteil meiner Praxisphase war die Arbeit mit Apache OFBiz. Dabei handelt es sich um ein Open-Source-Framework, das unter anderem für die Entwicklung von Unternehmensanwendungen und E-Commerce-Lösungen eingesetzt wird. Im Verlauf der Praxisphase konnte ich mich mit dem Aufbau und der Funktionsweise von Apache OFBiz vertraut machen und praktische Erfahrungen bei der Entwicklung und Anpassung von Anwendungen sammeln.
+Für die Bearbeitung meiner Aufgaben kamen verschiedene Programmiersprachen und Technologien zum Einsatz. Dazu gehörten insbesondere Java, SQL, Groovy, FreeMarker (FTL) und HTML. Darüber hinaus wurde Git zur Versionsverwaltung verwendet. Die einzelnen Aufgaben wurden über ein Ticketsystem organisiert. Für jede Aufgabe wurde ein eigenes Ticket erstellt, anschließend bearbeitet und nach Abschluss dokumentiert. Die Änderungen am Quellcode wurden mithilfe von Git in das entsprechende Repository übertragen.
+Ein wesentlicher Bestandteil der Praxisphase war ein Ausarbeitungsprojekt, das aus insgesamt zehn Aufgaben bestand. Die Aufgaben behandelten unterschiedliche Bereiche der Softwareentwicklung und dienten dazu, die verwendeten Technologien und Arbeitsweisen praktisch anzuwenden. Eine der ersten Aufgaben bestand beispielsweise in der Entwicklung eines eigenen Wetterstations-Plugins innerhalb von Apache OFBiz. Dafür erstellte ich eine Benutzeroberfläche mit HTML und FreeMarker, implementierte die Benutzerinteraktionen mit Groovy und entwickelte eine Java-Klasse zur Verarbeitung der benötigten Events. Die Anwendung ermöglichte es, Temperaturwerte einzugeben, zu speichern und verschiedene statistische Auswertungen durchzuführen. Im weiteren Verlauf wurde die Speicherung der Daten von einer Session auf eine Datenbank umgestellt.
+Neben der Entwicklung der Wetterstations-Anwendung beschäftigte ich mich mit der Erstellung von Services und Workern sowie der Entwicklung einer REST-API innerhalb von Apache OFBiz. Weitere Aufgaben umfassten die Anpassung und Verschiebung bestehender Klassen und Methoden zwischen Plugins, die Verbesserung der Wartbarkeit von Code sowie die Hinterlegung von AGB-Inhalten und deren englischen Übersetzungen.
+Ein weiterer Schwerpunkt meiner Praxisphase war das Thema Softwaretesting. Nach einer selbstständigen Einarbeitung in die Grundlagen des Testens beschäftigte ich mich mit der Analyse und Überprüfung der Klasse EcsPartyWorker. Dabei plante ich zunächst geeignete Testfälle, dokumentierte diese und setzte sie anschließend in Form von Integrationstests um. Zusätzlich beschäftigte ich mich mit der Bereitstellung benötigter Testdaten mithilfe von XML-Konfigurationsdateien.
+Neben der eigentlichen Implementierung spielte auch die Fehleranalyse und Fehlerbehebung eine wichtige Rolle. Während der Bearbeitung der Aufgaben traten verschiedene Fehler auf, die ich untersuchte und behob. Dadurch konnte ich meine Fähigkeiten bei der systematischen Suche nach Fehlerursachen erweitern und ein besseres Verständnis für den Aufbau und das Zusammenspiel der verschiedenen Komponenten entwickeln.
+Die Praxisphase war insgesamt darauf ausgerichtet, theoretische Kenntnisse aus dem Studium auf konkrete praktische Problemstellungen anzuwenden. Durch die Bearbeitung der verschiedenen Aufgaben konnte ich sowohl meine technischen Kenntnisse in der Softwareentwicklung erweitern als auch Erfahrungen mit typischen Arbeitsabläufen in einem professionellen Entwicklungsumfeld sammeln. Der Schwerpunkt dieses Berichts liegt daher auf den während der Praxisphase durchgeführten Aufgaben, den dabei eingesetzten Technologien sowie den gewonnenen Erfahrungen und Erkenntnissen.
 
-as
-Umfang: typisch ca. 8% ... 10% der Arbeit
 
 
 ## Aufbau einer wissenschaftlichen Arbeit
